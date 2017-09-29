@@ -22,11 +22,7 @@ module.exports = function zeros(expression) {
             };
         };
 
-        if (count2 < count5) {
-            return (count2);
-        } else {
-            return (count5);
-        };
+      return Math.min(count2,count5);
 
         function countOdd(num) {
             let tempCount = 0;
